@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/nxgtw/go-ipc/internal/common"
+	"github.com/wangzhengzh/go-ipc/internal/common"
 	"github.com/pkg/errors"
 )
 
@@ -134,6 +134,6 @@ func removeSysVSemaByID(id int, name string) error {
 }
 
 func semAdd(id, value int) error {
-	b := sembuf{semnum: 0, semop: int16(value), semflg: 0}
+	b := sembuf{semnum: 0, semop: int16(value), semflg: cSemUndo}
 	return semop(id, []sembuf{b})
 }
