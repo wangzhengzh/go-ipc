@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/nxgtw/go-ipc/internal/allocator"
+	"github.com/wangzhengzh/go-ipc/internal/allocator"
 )
 
 const (

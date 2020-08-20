@@ -26,7 +26,7 @@ func ExampleMessenger() {
 	}
 	defer mq2.Close()
 	received := make([]byte, len(data))
-	l, err := mq2.Receive(data)
+	l, err := mq2.Receive(received)
 	if err != nil {
 		panic("receive")
 	}

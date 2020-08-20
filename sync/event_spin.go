@@ -10,10 +10,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nxgtw/go-ipc/internal/allocator"
-	"github.com/nxgtw/go-ipc/internal/helper"
-	"bitbucket.org/avd/go-ipc/mmf"
-	"bitbucket.org/avd/go-ipc/shm"
+	"github.com/wangzhengzh/go-ipc/internal/allocator"
+	"github.com/wangzhengzh/go-ipc/internal/helper"
+	"github.com/wangzhengzh/go-ipc/mmf"
+	"github.com/wangzhengzh/go-ipc/shm"
 	"github.com/pkg/errors"
 )
 

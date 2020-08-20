@@ -7,8 +7,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/nxgtw/go-ipc/internal/allocator"
-	"github.com/nxgtw/go-ipc/internal/common"
+	"github.com/wangzhengzh/go-ipc/internal/allocator"
+	"github.com/wangzhengzh/go-ipc/internal/common"
 	"golang.org/x/sys/windows"
 )
 

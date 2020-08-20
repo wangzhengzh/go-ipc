@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nxgtw/go-ipc/internal/test"
-	"bitbucket.org/avd/go-ipc/mmf"
+	"github.com/wangzhengzh/go-ipc/internal/test"
+	"github.com/wangzhengzh/go-ipc/mmf"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nxgtw/go-ipc/internal/test"
+	"github.com/wangzhengzh/go-ipc/internal/test"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -10,11 +10,11 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/nxgtw/go-ipc/internal/allocator"
-	testutil "github.com/nxgtw/go-ipc/internal/test"
-	"bitbucket.org/avd/go-ipc/mmf"
-	"bitbucket.org/avd/go-ipc/shm"
-	ipc_sync "bitbucket.org/avd/go-ipc/sync"
+	"github.com/wangzhengzh/go-ipc/internal/allocator"
+	testutil "github.com/wangzhengzh/go-ipc/internal/test"
+	"github.com/wangzhengzh/go-ipc/mmf"
+	"github.com/wangzhengzh/go-ipc/shm"
+	ipc_sync "github.com/wangzhengzh/go-ipc/sync"
 )
 
 var (
@@ -32,7 +32,7 @@ const usage = `  test program for synchronization primitives.
 available commands:
   create
   destroy
-  inc64 shm_name n 
+  inc64 shm_name n
     increments an int64 value at the beginning of the shm_name region n times
   test shm_name n {expected values byte array}
     performs n reads from shm_name and compares the results with the expected data

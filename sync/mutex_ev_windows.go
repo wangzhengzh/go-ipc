@@ -6,11 +6,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/nxgtw/go-ipc/internal/allocator"
-	"github.com/nxgtw/go-ipc/internal/common"
-	"github.com/nxgtw/go-ipc/internal/helper"
-	"bitbucket.org/avd/go-ipc/mmf"
-	"bitbucket.org/avd/go-ipc/shm"
+	"github.com/wangzhengzh/go-ipc/internal/allocator"
+	"github.com/wangzhengzh/go-ipc/internal/common"
+	"github.com/wangzhengzh/go-ipc/internal/helper"
+	"github.com/wangzhengzh/go-ipc/mmf"
+	"github.com/wangzhengzh/go-ipc/shm"
 
 	"github.com/pkg/errors"
 	"golang.org/x/sys/windows"
@@ -117,7 +117,7 @@ func (e *eventWaiter) wait(unused int32, timeout time.Duration) error {
 	switch ev {
 	case windows.WAIT_OBJECT_0:
 		return nil
-	case windows.WAIT_TIMEOUT:
+	case uint32(windows.WAIT_TIMEOUT):
 		return timeoutErr
 	default:
 		if err != nil {

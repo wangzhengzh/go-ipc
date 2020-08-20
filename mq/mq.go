@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/nxgtw/go-ipc/internal/common"
+	"github.com/wangzhengzh/go-ipc/internal/common"
 )
 
 const (

@@ -5,7 +5,7 @@ package sync
 import (
 	"time"
 
-	"github.com/nxgtw/go-ipc/internal/common"
+	"github.com/wangzhengzh/go-ipc/internal/common"
 )
 
 func doSemaTimedWait(id int, timeout time.Duration) bool {

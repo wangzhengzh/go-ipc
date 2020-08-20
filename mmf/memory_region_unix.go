@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/nxgtw/go-ipc/internal/allocator"
+	"github.com/wangzhengzh/go-ipc/internal/allocator"
 
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"

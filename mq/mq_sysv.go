@@ -8,7 +8,7 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/nxgtw/go-ipc/internal/common"
+	"github.com/wangzhengzh/go-ipc/internal/common"
 
 	"github.com/pkg/errors"
 )

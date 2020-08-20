@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nxgtw/go-ipc/internal/test"
-	"bitbucket.org/avd/go-ipc/mq"
+	"github.com/wangzhengzh/go-ipc/internal/test"
+	"github.com/wangzhengzh/go-ipc/mq"
 )
 
 var (
